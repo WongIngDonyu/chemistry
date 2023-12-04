@@ -1,0 +1,629 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter/static/Inter-Regular.ttf");
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../fonts/Inter/static/Inter-Bold.ttf");
+}
+a {
+    text-decoration: none;
+}
+.margin{
+    height: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Black, #000);
+    position: fixed;
+    z-index: 100;
+}
+header .menu-block {
+    height: 100px;
+    align-self: stretch;
+}
+header .menu-block .elements{
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--white, #F6F6F6);
+}
+header .menu-block .elements .link{
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+header .menu-block .elements .nav-wrap{
+    display: flex;
+    height: 69px;
+    padding-left: 0px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+header .menu-block .elements .nav-wrap .list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 14px;
+}
+header .menu-block .elements .nav-wrap .list .item{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 14px;
+}
+header .menu-block .elements .nav-wrap .list .item a{
+    color: var(--white, #F6F6F6);
+    text-align: right;
+    font-family: Inter, serif;
+    font-size: 15.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+header .menu-block .elements .nav-wrap .list .search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+main{
+    padding-top: 100px;
+    background: var(--Black, #000);
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h5{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 27.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+.carousel .carousel-inner .carousel-item img{
+    display: flex;
+    position: relative;
+}
+.section-1{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Calico, #F8F3EF);
+}
+.section-1 .excursion-wrap{
+    display: flex;
+    height: 410px;
+    padding-top: 26px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7.99px;
+    flex-shrink: 0;
+    align-self: stretch;
+    justify-content: center;
+}
+.section-1 .excursion-wrap div{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section-1 .excursion-wrap div p{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38.4px;
+}
+.section-1 .excursion-wrap .links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+.section-1 .excursion-wrap .links .list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-1 .excursion-wrap .links .list .item{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-1 .excursion-wrap .links .list .item:hover{
+    background: #f2e7c3;
+    transition: 0.5s all ease;
+}
+.section-1 .excursion-wrap .links .list .item a{
+    color: #212121;
+    font-family: Inter;
+    font-size: 19.531px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.section-1 .excursion-wrap .links a{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-1 .excursion-wrap .links .link .button{
+    display: flex;
+    padding: 21px 64px 21px 64px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+.section-1 .excursion-wrap .links .link .button:hover{
+    background: #f2e7c3;
+    transition: 0.5s all ease;
+}
+.section-1 .excursion-wrap .links .link .button p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15.625px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.section-1 .excursion-wrap .image{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+}
+.section-1 .excursion-wrap .image .link{
+    display: flex;
+    align-items: center;
+    border-radius: 11px;
+    aspect-ratio: 1
+}
+.section-1 .excursion-wrap .image .link img{
+    width: 100%;
+    height: 100%;
+    max-width: 432px;
+    border-radius: 143.86px;
+}
+.section-2{
+    border-top: 1px solid #343434;
+    background: var(--Billird-Green, #304F4E);
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.section-2 .main-collection .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 150px;
+}
+.section-2 .main-collection .content div{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-2 .main-collection .content div p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40.125px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+}
+.section-2 .main-collection .content .link{
+    display: flex;
+    padding: 21px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.00);
+}
+.section-2 .main-collection .content .link:hover{
+    background: #032830;
+    transition: 0.5s all ease;
+}
+.section-2 .main-collection .content .link p{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.section-2 .main-collection .element-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 .main-collection .element-col svg{
+    height: 100%;
+    width: 100%;
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 200px;
+    min-width: 200px;
+    flex-shrink: 0;
+    position: absolute;
+}
+.section-2 .main-collection .element-col img{
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    max-width: 300px;
+    min-height: 150px;
+    min-width: 150px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 10;
+}
+.section-3{
+    padding-bottom: 64px;
+    padding-top: 64px;
+    background: var(--Calico, #F8F3EF);
+}
+.section-3 .teaser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+.section-3 .teaser .teaser-block-title{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-3 .teaser .teaser-block-title p{
+    color: #000;
+    font-family: Inter;
+    font-size: 31.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0;
+}
+.section-3 .teaser .row{
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-3 .teaser .row .item{
+    display: flex;
+    padding: 0px 12px 40px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.section-3 .teaser .row .item img{
+    width: 100%;
+    height: 100%;
+}
+.section-3 .teaser .row .item p{
+    color: #000;
+    font-family: Inter;
+    font-size: 17.031px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 140.917% */
+    letter-spacing: -0.4px;
+    margin: 0;
+}
+footer{
+    display: flex;
+    background: #000;
+    padding-top: 86px;
+    flex-direction: column;
+    align-items: center;
+}
+footer .links{
+    background: linear-gradient(0deg, #363DA0 2.05%, rgba(0, 0, 0, 0.00) 38.48%);
+}
+footer .links .links-col{
+    display: flex;
+    padding: 0px 12px 80px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+footer .links .links-col .bottom-menu-title p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+footer .links .links-col .list .item a{
+    color: #CFCFCF;
+    font-family: Inter;
+    font-size: 13.563px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+footer .credits{
+    margin-top: 32px;
+    margin-bottom: 15px;
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+footer .credits span{
+    color: #6A6A6A;
+    font-family: Inter;
+    font-size: 13.453px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+footer .margin{
+    margin-top: 32px;
+}
+footer .margin a{
+    color: #6A6A6A;
+    text-shadow: 1px 1px 9px #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.section-excursion-1{
+    padding-top: 100px;
+}
+.section-excursion-1 .heading{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-excursion-1 .heading p{
+    margin: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 59.578px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 74.4px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.section-excursion-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background: #000;
+    margin-bottom: 86px;
+}
+.section-excursion-2 .form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+    margin-bottom: 40px;
+}
+.section-excursion-2 .form .right-column{
+    display: flex;
+    align-items: flex-end;
+    align-self: stretch;
+    gap: 40px;
+}
+.section-excursion-2 .form .right-column .button{
+    display: flex;
+    padding: 7px 21.08px 8px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 1px solid #595959;
+}
+.section-excursion-2 .form .right-column .button:hover{
+    background: grey;
+    transition: 0.5s all ease;
+}
+.section-excursion-2 .form .right-column .button a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-excursion-2 .item{
+    display: flex;
+    padding: 24px 12px 24px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section-excursion-2 .item:hover{
+    border-radius: 10px;
+    background: grey;
+    transition: 0.5s all ease;
+}
+.section-excursion-2 .item .body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.section-excursion-2 .item .body .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-excursion-2 .item .body .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.section-excursion-2 .item .body .heading .text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38.4px;
+    margin: 0;
+    gap: 2px;
+}
+.section-about-1{
+    padding-top: 100px;
+}
+.section-about-1 .heading{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-top: 64px;
+    margin-bottom: 20px;
+}
+.section-about-1 .heading p{
+    color: #000;
+    font-family: Inter;
+    font-size: 59.699px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 74.4px;
+}
+.section-about-2 .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-flow: column;
+    margin-bottom: 120px;
+}
+.section-about-2 .items .main-text{
+    display: flex;
+    padding: 20px 15px 21px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.section-about-2 .items .main-text p{
+    color: #000;
+    font-family: Inter;
+    font-size: 15.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.section-about-2 .items .heading{
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+.section-about-2 .items .heading p{
+    color: #000;
+    font-family: Inter;
+    font-size: 26.578px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+    margin: 0;
+}
+.section-about-2 .items .text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section-about-2 .items .text p{
+    margin: 0;
+}
+.section-about-2 .items .item{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin-top: 10px;
+    float: right;
+    margin-left: 20px;
+}
+.section-about-2 .items .item img{
+    width: 300px;
+    height: 355.91px;
+    aspect-ratio: 1
+}
+.section-about-2 .items .item p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 11.063px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15.6px;
+    margin: 0;
+}
+.section-elements{
+    margin-bottom: 100px;
+}
+.section-elements .img-item{
+    border-radius: 10px;
+}
+.section-elements .info{
+    margin-top: 50px;
+}
+.section-elements .info .main-text{
+    color: #000;
+    font-family: Inter-Bold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.section-elements .info .text{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+.section-elements .info .item{
+    margin-top: 50px;
+    gap: 5px;
+}
+.section-elements .info .item .list p{
+    margin-bottom: 5px;
+}
+.section-elements .info .item .list img{
+    margin-bottom: 5px;
+}

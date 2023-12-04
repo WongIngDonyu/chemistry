@@ -1,0 +1,117 @@
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 67
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"1","filePath" :"src/main/resources/static/exhibits/16.docx"}
+
+<> 2023-12-04T235256.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 67
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"3","filePath" :"src/main/resources/static/exhibits/16.docx"}
+
+<> 2023-12-04T235207.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"2","filePath" :"src/main/resources/exhibits/16.docx"}
+
+<> 2023-12-04T235038.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 67
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"1","filePath" :"src/main/resources/static/exhibits/16.docx"}
+
+<> 2023-12-04T234824.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 67
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"4","filePath" :"src/main/resources/static/exhibits/16.docx"}
+
+<> 2023-12-04T234724.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 48
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"3","filePath" :"static/exhibits/16.docx"}
+
+<> 2023-12-04T234619.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 67
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"2","filePath" :"src/main/resources/static/exhibits/16.docx"}
+
+<> 2023-12-04T234509.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"1","filePath" :"src/main/resources/exhibits/16.docx"}
+
+<> 2023-12-04T214322.500.json
+
+###
+
+POST http://localhost:8080/documents
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"id":"1","filePath" :"src/main/resources/exhibits/16.docx"}
+
+<> 2023-12-04T214224.500.json
+
+###
+
