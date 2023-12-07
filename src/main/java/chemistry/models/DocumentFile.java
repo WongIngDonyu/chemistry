@@ -1,34 +1,22 @@
 package chemistry.models;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Document
-public class DocumentFile {
-    @Id
-    private String id;
+@Entity
+@Table(name = "document_files")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class DocumentFile extends BaseEntity {
+    @Column(name = "filePath")
     private String filePath;
 
-    public DocumentFile() {
-    }
-
-    public DocumentFile(String filePath) {
-        this.filePath = filePath;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public void setFilePath(String filePath) {
-        this.filePath = filePath;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public String getFilePath() {
-        return filePath;
-    }
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private Users user;
 }
