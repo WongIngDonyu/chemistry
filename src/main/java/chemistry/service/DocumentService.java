@@ -34,6 +34,10 @@ public class DocumentService {
         return documentRepository.findAll();
     }
 
+    public List<DocumentFile> getDocumentsByFileName(String file_name) {
+        return documentRepository.findByFileName(file_name);
+    }
+
     public DocumentFile addDocument(DocumentFileDto documentDto) {
         DocumentFile document = new DocumentFile();
         document.setFilePath(documentDto.getFilePath());

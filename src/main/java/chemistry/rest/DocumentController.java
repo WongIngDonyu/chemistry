@@ -30,6 +30,11 @@ public class DocumentController {
         return documentService.getAllDocuments();
     }
 
+    @GetMapping("/documents/search")
+    public List<DocumentFile> getDocumentsByFileName(@RequestParam String file_name) {
+        return documentService.getDocumentsByFileName(file_name);
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<String> getDocumentById(@PathVariable String id) {
         String htmlContent = documentService.getDocxContentAsHtml(id);

@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/DTO/DocumentFileDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/DTO/UsersDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/FolderArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/ImageFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/VideoFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/DTO/DocumentFileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/DTO/DocumentFileDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/DocumentFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/DocumentFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/rest/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/rest/DocumentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/service/repository/DocumentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/repository/DocumentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chemistry/rest/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/rest/DocumentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" afterDir="false" />
@@ -40,12 +33,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -65,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature/1",
     "last_opened_file_path": "D:/лабы/проект/chemistry",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,6 +88,19 @@
   <component name="RunManager" selected="Spring Boot.ChemistryApplication">
     <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="15" requestIdentifier="#15" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="chemistry" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="chemistry" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ChemistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="car-catalog" />

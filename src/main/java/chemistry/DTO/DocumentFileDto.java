@@ -9,5 +9,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class DocumentFileDto {
     private String filePath;
+    private String fileName;
     private long userId;
 }

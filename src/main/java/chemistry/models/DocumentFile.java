@@ -13,6 +13,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DocumentFile extends BaseEntity {
+    @Column(name = "file_name")
+    private String fileName;
     @Column(name = "filePath")
     private String filePath;
 
