@@ -5,21 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/FolderArchive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/ImageFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/VideoFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/DTO/DocumentFileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/DTO/DocumentFileDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/DocumentFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/DocumentFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/rest/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/rest/DocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/service/repository/DocumentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/repository/DocumentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/rest/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/rest/DocumentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/baco3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/baco3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bao2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/excursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/excursion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hpo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hpo3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/nh4clo4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/nh4clo4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sio2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vao2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vitrina.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vitrina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/baco3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/baco3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/bao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/bao2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/excursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/excursion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/hpo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hpo3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/nh4clo4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/nh4clo4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/sio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/sio2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vao2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vitrina.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vitrina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +73,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/1",
-    "last_opened_file_path": "D:/лабы/проект/chemistry",
+    "git-widget-placeholder": "b970942f",
+    "last_opened_file_path": "C:/Users/WongIngDonyu/IdeaProjects/chemistry/src/main/resources/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,29 +88,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WongIngDonyu\IdeaProjects\chemistry\src\main\resources\templates" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static\pictures" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\templates\static" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\templates" />
-      <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static\exhibits" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ChemistryApplication">
     <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="15" requestIdentifier="#15" runType="Run single request">
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="chemistry" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="chemistry" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ChemistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="car-catalog" />
@@ -170,11 +167,38 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/feature/1" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature/1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
