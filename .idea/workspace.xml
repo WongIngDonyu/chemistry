@@ -4,21 +4,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="first commit" />
+    <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="minor fix">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/excursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/excursion.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -29,31 +103,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/WongIngDonyu/Desktop/chemistry&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "ceeaaf6d",
+    "last_opened_file_path": "C:/Users/WongIngDonyu/IdeaProjects/chemistry/src/main/resources/static",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WongIngDonyu\IdeaProjects\chemistry\src\main\resources\static" />
+      <recent name="C:\Users\WongIngDonyu\IdeaProjects\chemistry\src\main\resources\templates" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static\pictures" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\templates\static" />
-      <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\templates" />
-      <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static\exhibits" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ChemistryApplication">
@@ -61,7 +139,7 @@
       <method v="2" />
     </configuration>
     <configuration name="ChemistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="chemistry" />
+      <module name="car-catalog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="chemistry.ChemistryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,6 +165,7 @@
       <workItem from="1701710847364" duration="1181000" />
       <workItem from="1701713884813" duration="11566000" />
       <workItem from="1701727064982" duration="189000" />
+      <workItem from="1701946870987" duration="6548000" />
     </task>
     <task id="LOCAL-00001" summary="do work validation in model">
       <option name="closed" value="true" />
@@ -120,18 +199,53 @@
       <option name="project" value="LOCAL" />
       <updated>1701727249329</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor fix">
+      <option name="closed" value="true" />
+      <created>1702128999831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702128999831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/feature/1" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature/1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -142,6 +256,7 @@
     <MESSAGE value="do work validation in user" />
     <MESSAGE value="do work validation in offer" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="minor fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix" />
   </component>
 </project>

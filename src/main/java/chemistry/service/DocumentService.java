@@ -1,5 +1,8 @@
 package chemistry.service;
 
+import chemistry.DTO.DocumentFileDto;
+import chemistry.models.Users;
+import chemistry.service.repository.UsersRepository;
 import fr.opensagres.poi.xwpf.converter.xhtml.XHTMLConverter;
 import fr.opensagres.poi.xwpf.converter.xhtml.XHTMLOptions;
 import org.apache.poi.openxml4j.opc.OPCPackage;
@@ -20,16 +23,29 @@ import java.util.Optional;
 public class DocumentService {
 
     private final DocumentRepository documentRepository;
+    private final UsersRepository userRepository;
 
-    public DocumentService(DocumentRepository documentRepository) {
+    public DocumentService(DocumentRepository documentRepository, UsersRepository userRepository) {
         this.documentRepository = documentRepository;
+        this.userRepository = userRepository;
     }
 
     public List<DocumentFile> getAllDocuments() {
         return documentRepository.findAll();
     }
 
-    public DocumentFile addDocument(DocumentFile document) {
+    public List<DocumentFile> getDocumentsByFileName(String file_name) {
+        return documentRepository.findByFileName(file_name);
+    }
+
+    public DocumentFile addDocument(DocumentFileDto documentDto) {
+        DocumentFile document = new DocumentFile();
+        document.setFilePath(documentDto.getFilePath());
+
+        Users user = userRepository.findById(Math.toIntExact(documentDto.getUserId()))
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        document.setUser(user);
+
         return documentRepository.save(document);
     }
 
@@ -40,7 +56,7 @@ public class DocumentService {
                     return documentRepository.save(document);
                 })
                 .orElseGet(() -> {
-                    updatedDocument.setId(id);
+                    updatedDocument.setId(Integer.parseInt(id));
                     return documentRepository.save(updatedDocument);
                 });
     }

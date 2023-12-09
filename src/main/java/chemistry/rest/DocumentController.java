@@ -1,5 +1,6 @@
 package chemistry.rest;
 
+import chemistry.DTO.DocumentFileDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -29,6 +30,11 @@ public class DocumentController {
         return documentService.getAllDocuments();
     }
 
+    @GetMapping("/documents/search")
+    public List<DocumentFile> getDocumentsByFileName(@RequestParam String file_name) {
+        return documentService.getDocumentsByFileName(file_name);
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<String> getDocumentById(@PathVariable String id) {
         String htmlContent = documentService.getDocxContentAsHtml(id);
@@ -38,17 +44,9 @@ public class DocumentController {
         return new ResponseEntity<>(htmlContent, headers, HttpStatus.OK);
     }
 
-
     @PostMapping
-    public DocumentFile addDocument(@RequestBody DocumentFile document) {
-        return documentService.addDocument(document);
-    }
-
-    @PutMapping("/{id}")
-    public ResponseEntity<DocumentFile> updateDocument(@PathVariable String id, @RequestBody DocumentFile document) {
-        return documentService.getDocumentById(id)
-                .map(existingDocument -> ResponseEntity.ok(documentService.updateDocument(id, document)))
-                .orElseGet(() -> ResponseEntity.notFound().build());
+    public DocumentFile addDocument(@RequestBody DocumentFileDto documentDto) {
+        return documentService.addDocument(documentDto);
     }
 
     @DeleteMapping("/{id}")
