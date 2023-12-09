@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="heading col-4">
-                    <p>Экскурсии</p>
+                    <p>Фотогалерея</p>
                 </div>
             </div>
         </div>
@@ -71,6 +71,7 @@
 <section class="section-excursion-2">
     <div class="container-fluid">
         <div class="container">
+            <!--
             <div class="form">
                 <div class="right-column">
                     <div class="button">
@@ -121,6 +122,31 @@
                         </div>
                     </a>
                 </div>
+            </div>
+            -->
+            <div id="carouselCabinet" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/static/cabinet/1.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 600px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Фотогалерея</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" th:each="i : ${#numbers.sequence( 2, 63)}">
+                        <img th:src="@{/static/cabinet/{name}.jpg(name=${i})}" class="d-block w-100 img-fluid" alt="..." style="height: 600px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 th:text="'Фото ' + ${i}"></h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCabinet" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCabinet" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>

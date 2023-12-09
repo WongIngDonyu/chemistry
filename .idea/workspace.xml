@@ -4,32 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/baco3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/baco3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bao2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" afterDir="false" />
+    <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="minor fix">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cabinet/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/excursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/excursion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hpo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hpo3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/nh4clo4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/nh4clo4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sio2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vao2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vitrina.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vitrina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/baco3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/baco3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/bao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/bao2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/excursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/excursion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hpo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hpo3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/nh4clo4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/nh4clo4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/sio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/sio2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vao2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vao2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vitrina.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vitrina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +112,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "b970942f",
-    "last_opened_file_path": "C:/Users/WongIngDonyu/IdeaProjects/chemistry/src/main/resources/templates",
+    "git-widget-placeholder": "ceeaaf6d",
+    "last_opened_file_path": "C:/Users/WongIngDonyu/IdeaProjects/chemistry/src/main/resources/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,11 +127,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WongIngDonyu\IdeaProjects\chemistry\src\main\resources\static" />
       <recent name="C:\Users\WongIngDonyu\IdeaProjects\chemistry\src\main\resources\templates" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static\pictures" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\static" />
       <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\templates\static" />
-      <recent name="C:\Users\WongIngDonyu\Desktop\webchik23\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ChemistryApplication">
@@ -160,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701727249329</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor fix">
+      <option name="closed" value="true" />
+      <created>1702128999831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702128999831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +256,7 @@
     <MESSAGE value="do work validation in user" />
     <MESSAGE value="do work validation in offer" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="minor fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix" />
   </component>
 </project>
