@@ -1,22 +1,27 @@
 package chemistry.web;
 
+import chemistry.DTO.DocumentFileDto;
 import chemistry.DTO.ImageFileDto;
 import chemistry.DTO.VideoFileDto;
+import chemistry.models.DocumentFile;
+import chemistry.service.DocumentService;
 import chemistry.service.ImageFileService;
 import chemistry.service.VideoFileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/rutmuseum.ru/admin")
 public class AdminController {
     private VideoFileService videoFileService;
     private ImageFileService imageFileService;
+    private DocumentService documentService;
+    @Autowired
+    public void setDocumentService(DocumentService documentService) {
+        this.documentService = documentService;
+    }
     @Autowired
     public void setVideoFileService(VideoFileService videoFileService) {
         this.videoFileService = videoFileService;
@@ -27,11 +32,13 @@ public class AdminController {
     }
 
     @GetMapping("/adminboard")
-    public String adminBoard(Model model, VideoFileDto videoFileDto, ImageFileDto imageFileDto){
+    public String adminBoard(Model model, VideoFileDto videoFileDto, ImageFileDto imageFileDto, DocumentFileDto documentFileDto){
         model.addAttribute("pictures", imageFileService.getAllImages());
         model.addAttribute("videos", videoFileService.getAllVideo());
         model.addAttribute("videoFileDto",videoFileDto);
         model.addAttribute("imageFileDto",imageFileDto);
+        model.addAttribute("documentFileDto",documentFileDto);
+        model.addAttribute("documents", documentService.getAllDocuments());
         return "adminBoard";
     }
 
@@ -55,6 +62,14 @@ public class AdminController {
         } else if ("video".equals(entity)) {
             videoFileService.deleteVideo(id);
         }
+        else if ("document".equals(entity)) {
+            documentService.deleteDocument(id);
+        }
+        return "redirect:/rutmuseum.ru/admin/adminboard";
+    }
+    @PostMapping("/addDocument")
+    public String addDocument(@ModelAttribute DocumentFileDto documentDto) {
+        documentService.addDocument(documentDto);
         return "redirect:/rutmuseum.ru/admin/adminboard";
     }
 

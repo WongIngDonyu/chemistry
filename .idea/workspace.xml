@@ -5,25 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="merging">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_12_2023_16_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_12_2023_16_07__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/ChemistryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/ChemistryApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/DocumentFileDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/DocumentFileDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/UsersDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/UsersDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/FolderArchive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/FolderArchive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/rest/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/rest/DocumentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/UsersRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/ShowcaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/ShowcaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/DocumentFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/DocumentFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/FolderArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/FolderArchive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/rest/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/rest/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/service/repository/DocumentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/repository/DocumentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/web/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/web/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/ImageFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/ImageFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/VideoFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/VideoFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,29 +69,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;front__dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/merkulovandrej/Documents/project/chemistry&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9ddee3770eba541ff59e15c41d0ef20a&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/merkulovandrej/Documents/project/chemistry",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "9ddee3770eba541ff59e15c41d0ef20a",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -145,6 +139,7 @@
       <workItem from="1702136364939" duration="386000" />
       <workItem from="1702136768394" duration="1199000" />
       <workItem from="1702138419311" duration="606000" />
+      <workItem from="1702221425803" duration="6863000" />
     </task>
     <task id="LOCAL-00001" summary="do work validation in model">
       <option name="closed" value="true" />

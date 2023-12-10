@@ -34,17 +34,18 @@ public class DocumentService {
         return documentRepository.findAll();
     }
 
-    public List<DocumentFile> getDocumentsByFileName(String file_name) {
+    /*public List<DocumentFile> getDocumentsByFileName(String file_name) {
         return documentRepository.findByFileName(file_name);
-    }
+    }*/
 
     public DocumentFile addDocument(DocumentFileDto documentDto) {
         DocumentFile document = new DocumentFile();
         document.setFilePath(documentDto.getFilePath());
 
-        Users user = userRepository.findById(Math.toIntExact(documentDto.getUserId()))
-                .orElseThrow(() -> new RuntimeException("User not found"));
+        Users user = userRepository.findById(Math.toIntExact(documentDto.getUserId())).orElse(null);
+                /*.orElseThrow(() -> new RuntimeException("User not found"))*/;
         document.setUser(user);
+        document.setFileName(documentDto.getFileName());
 
         return documentRepository.save(document);
     }
@@ -71,6 +72,23 @@ public class DocumentService {
 
     public String getDocxContentAsHtml(String id) {
         Optional<DocumentFile> documentFile = documentRepository.findById(id);
+        if (documentFile.isPresent()) {
+            String filePath = documentFile.get().getFilePath();
+            try (FileInputStream fis = new FileInputStream(new File(filePath));
+                 XWPFDocument document = new XWPFDocument(OPCPackage.open(fis))) {
+                XHTMLOptions options = XHTMLOptions.create();
+                ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                XHTMLConverter.getInstance().convert(document, baos, options);
+                return new String(baos.toByteArray(), StandardCharsets.UTF_8);
+            } catch (Exception e) {
+                e.printStackTrace();
+                return "Error converting document: " + e.getMessage();
+            }
+        }
+        return "Document not found";
+    }
+    public String getDocxContentAsHtmlByName(String id) {
+        Optional<DocumentFile> documentFile = documentRepository.findByFileName(id);
         if (documentFile.isPresent()) {
             String filePath = documentFile.get().getFilePath();
             try (FileInputStream fis = new FileInputStream(new File(filePath));
