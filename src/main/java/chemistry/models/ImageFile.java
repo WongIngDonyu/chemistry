@@ -19,6 +19,6 @@ public class ImageFile extends BaseEntity{
     private String imagePath;
 
     @ManyToOne
-    @JoinColumn(name = "folder_id", nullable = false)
+    @JoinColumn(name = "folder_id"/*, nullable = false*/)
     private FolderArchive folder;
 }

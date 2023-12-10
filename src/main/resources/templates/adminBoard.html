@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin board</title>
+</head>
+<body>
+<h2>Все фото</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Путь</th>
+        <th>Удаление</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="picture : ${pictures}">
+        <td th:text="${picture.image_name}"></td>
+        <td th:text="${picture.imagePath}"></td>
+        <td>
+            <a th:href="@{/rutmuseum.ru/admin/delete/pictures/{id}(id=${picture.id})}">Удалить</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>Все видео</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Путь</th>
+        <th>Удаление</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="video : ${videos}">
+        <td th:text="${video.video_name}"></td>
+        <td th:text="${video.videoPath}"></td>
+        <td>
+            <a th:href="@{/rutmuseum.ru/admin/delete/video/{id}(id=${video.id})}">Удалить</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>Добавить новое фото</h2>
+<form method="post" action="/rutmuseum.ru/admin/addImage" th:object="${imageFileDto}">
+    <label>Имя: <input type="text" th:field="*{image_name}"/></label>
+    <label>Путь до фото: <input type="text" th:field="*{imagePath}"/></label>
+    <button type="submit">Save</button>
+</form>
+
+<h2>Добавить новое видео</h2>
+<form method="post" action="/rutmuseum.ru/admin/addVideo" th:object="${videoFileDto}">
+    <label>Имя: <input type="text" th:field="*{video_name}"/></label>
+    <label>Путь до видео: <input type="text" th:field="*{videoPath}"/></label>
+    <button type="submit">Save</button>
+</form>
+</body>
+</html>

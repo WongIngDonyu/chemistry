@@ -19,6 +19,6 @@ public class VideoFile extends BaseEntity{
     private String videoPath;
 
     @ManyToOne
-    @JoinColumn(name = "folder_id", nullable = false)
+    @JoinColumn(name = "folder_id"/*, nullable = false*/)
     private FolderArchive folder;
 }
