@@ -13,10 +13,12 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class DocumentFile extends BaseEntity {
+    @Column(name = "file_name")
+    private String fileName;
     @Column(name = "filePath")
     private String filePath;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id", nullable = false)
+    @JoinColumn(name = "user_id"/*, nullable = false*/)
     private Users user;
 }

@@ -30,9 +30,23 @@ public class DocumentController {
         return documentService.getAllDocuments();
     }
 
+    /*@GetMapping("/search")
+    public List<DocumentFile> getDocumentsByFileName(@RequestParam String file_name) {
+        return documentService.getDocumentsByFileName(file_name);
+    }*/
+
     @GetMapping("/{id}")
     public ResponseEntity<String> getDocumentById(@PathVariable String id) {
         String htmlContent = documentService.getDocxContentAsHtml(id);
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.TEXT_HTML);
+        headers.add(HttpHeaders.CONTENT_TYPE, "text/html; charset=UTF-8");
+        return new ResponseEntity<>(htmlContent, headers, HttpStatus.OK);
+    }
+
+    @GetMapping("/search/{name}")
+    public ResponseEntity<String> getDocumentByName(@PathVariable String name) {
+        String htmlContent = documentService.getDocxContentAsHtmlByName(name);
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_HTML);
         headers.add(HttpHeaders.CONTENT_TYPE, "text/html; charset=UTF-8");
