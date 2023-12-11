@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список папок</title>
+    <style>
+        .folder-icon {
+            width: 32px;
+            height: 32px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Список папок</h1>
+
+<div th:each="folder : ${folders}" style="display: inline-block; margin: 10px;">
+    <a th:href="@{'/rutmuseum.ru/folders/' + ${folder.id}}" style="text-decoration: none; color: inherit;">
+        <img th:src="@{/static/folders/folder.png}" alt="Иконка папки" class="folder-icon"/>
+        <p th:text="${folder.name_folder}" style="text-align: center; margin-top: 5px;"></p>
+    </a>
+</div>
+
+</body>
+</html>
