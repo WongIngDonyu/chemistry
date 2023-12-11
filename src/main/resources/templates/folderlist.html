@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список папок</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/contacts.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/background-black.css" type="text/css">
+    <style>
+        .folder-icon {
+            width: 60px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+<header th:replace="~{hf/header}"></header>
+
+
+<section class="section-1">
+    <div class="container">
+        <div class="excursion-wrap row align-items-center">
+            <div class="align-content-center col-11">
+                <div class="col-12">
+                    <p>Список папок</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<style>
+    .section-b {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 100px;
+        padding-bottom: 20px;
+        background: var(--Calico, #F8F3EF);
+    }
+</style>
+<section class="section-1">
+<section class="section-b">
+    <div th:each="folder : ${folders}">
+        <a th:href="@{'/rutmuseum.ru/folders/' + ${folder.id}}" style="text-decoration: none; padding-top: 30px; color: inherit;">
+            <img th:src="@{/static/folders/folder.png}" alt="Иконка папки" class="folder-icon"/>
+            <p th:text="${folder.name_folder}" style="text-align: center; margin-top: 5px;"></p>
+        </a>
+    </div>
+</section>
+</section>
+<section class="section-1">
+    <div class="container">
+        <div class="excursion-wrap row align-items-center">
+            <div class="align-content-center col-11">
+                <div class="col-12">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+
+<footer th:replace="~{hf/footer}"></footer>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+</html>

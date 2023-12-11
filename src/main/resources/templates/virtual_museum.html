@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/contacts.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        #panorama { width: 1200px; height: 600px; max-width: 80%; max-height: 60%}
+    </style>
+</head>
+<body>
+<header th:replace="~{hf/header}"></header>
+<section class="section-1">
+    <div class="container">
+        <div class="excursion-wrap row align-items-center">
+            <div class="align-content-center col-11">
+                <div class="col-12">
+                    <p>Виртуальная экскурсия</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+<section class="section-1">
+    <div id="panorama"></div>
+</section>
+<script>
+
+    pannellum.viewer('panorama', {
+        "default": {
+            "firstScene": "corner1",
+            "autoLoad": true,
+            "mouseZoom": "fullscreenonly"
+        },
+        "scenes": {
+            "corner1": {
+                "sceneFadeDuration":1000,
+                "hfov": 110,
+                "type": "equirectangular",
+                "panorama": "/static/360images/360r1.jpg",
+                "hotSpots": [
+                    {
+                        "pitch": 0,
+                        "yaw": 90,
+                        "type": "scene",
+                        "text": "Corner 2",
+                        "sceneId": "corner2"
+                    }
+                ]
+            },
+            "corner2": {
+                "sceneFadeDuration":1000,
+                "hfov": 110,
+                "type": "equirectangular",
+                "panorama": "/static/360images/360r2.jpg",
+                "hotSpots": [
+                    {
+                        "pitch": 0,
+                        "yaw": 90,
+                        "type": "scene",
+                        "text": "Corner 3",
+                        "sceneId": "corner3"
+                    }
+                ]
+            },
+            "corner3": {
+                "sceneFadeDuration":1000,
+                "hfov": 110,
+                "type": "equirectangular",
+                "panorama": "/static/360images/360r3.jpg",
+                "hotSpots": [
+                    {
+                        "pitch": 0,
+                        "yaw": 90,
+                        "type": "scene",
+                        "text": "Corner 4",
+                        "sceneId": "corner4"
+                    }
+                ]
+            },
+            "corner4": {
+                "sceneFadeDuration":1000,
+                "hfov": 110,
+                "type": "equirectangular",
+                "panorama": "/static/360images/360r4.jpg",
+                "hotSpots": [
+                    {
+                        "pitch": 0,
+                        "yaw": 90,
+                        "type": "scene",
+                        "text": "Corner 1",
+                        "sceneId": "corner1"
+                    }
+                ]
+            }
+        }
+    });
+</script>
+<footer th:replace="~{hf/footer}"></footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

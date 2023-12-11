@@ -9,5 +9,10 @@ public class HomeController {
     public String homePage() {
         return "index";
     }
+
+    @GetMapping("/rutmuseum.ru/lections")
+    public String lections(){
+        return "lections";
+    }
 }
 

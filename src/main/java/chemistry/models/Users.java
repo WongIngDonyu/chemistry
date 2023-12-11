@@ -23,9 +23,9 @@ public class Users extends BaseEntity {
     @Column(name = "roles")
     private Role role;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<DocumentFile> documentFiles;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<FolderArchive> folders;
 }

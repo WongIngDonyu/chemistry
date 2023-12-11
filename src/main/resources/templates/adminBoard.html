@@ -44,29 +44,7 @@
     </tr>
     </tbody>
 </table>
-<h2>Все документы</h2>
-<table>
-    <thead>
-    <tr>
-        <th>Имя</th>
-        <th>Путь</th>
-        <th>Удаление</th>
-        <th>Показать</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="document : ${documents}">
-        <td th:text="${document.fileName}"></td>
-        <td th:text="${document.filePath}"></td>
-        <td>
-            <a th:href="@{/rutmuseum.ru/admin/delete/document/{id}(id=${document.id})}">Удалить</a>
-        </td>
-        <td>
-            <a th:href="@{/documents/search/{name}(name=${document.fileName})}">Показать</a>
-        </td>
-    </tr>
-    </tbody>
-</table>
+
 <h2>Добавить новое фото</h2>
 <form method="post" action="/rutmuseum.ru/admin/addImage" th:object="${imageFileDto}">
     <label>Имя: <input type="text" th:field="*{image_name}"/></label>
@@ -80,12 +58,5 @@
     <label>Путь до видео: <input type="text" th:field="*{videoPath}"/></label>
     <button type="submit">Save</button>
 </form>
-<h2>Добавить новый документ</h2>
-<form method="post" action="/rutmuseum.ru/admin/addDocument" th:object="${documentFileDto}">
-    <label>Имя: <input type="text" th:field="*{fileName}"/></label>
-    <label>Путь до документа: <input type="text" th:field="*{filePath}"/></label>
-    <button type="submit">Save</button>
-</form>
-<a href="/">Вернуться на главную</a>
 </body>
 </html>

@@ -1,16 +1,15 @@
 package chemistry.service;
 
 import chemistry.DTO.DocumentFileDto;
+import chemistry.models.DocumentFile;
 import chemistry.models.Users;
+import chemistry.service.repository.DocumentRepository;
 import chemistry.service.repository.UsersRepository;
 import fr.opensagres.poi.xwpf.converter.xhtml.XHTMLConverter;
 import fr.opensagres.poi.xwpf.converter.xhtml.XHTMLOptions;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.springframework.stereotype.Service;
-import chemistry.models.DocumentFile;
-import chemistry.service.repository.DocumentRepository;
-
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

@@ -19,12 +19,12 @@ public class FolderArchive extends BaseEntity{
     private String name_folder;
 
     @ManyToOne
-    @JoinColumn(name = "user_id"/*, nullable = false*/)
+    @JoinColumn(name = "user_id", nullable = false)
     private Users user;
 
-    @OneToMany(mappedBy = "folder", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "folder", cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
     private List<ImageFile> imageFiles;
 
-    @OneToMany(mappedBy = "folder", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "folder", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private List<VideoFile> videoFiles;
 }

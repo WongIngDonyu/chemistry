@@ -15,8 +15,9 @@ public class PageController {
     public String contactsPage() {
         return "contacts";
     }
-    @GetMapping("/excursion")
-    public String excursionPage() {
-        return "excursion";
+    @GetMapping("/virtual_museum")
+    public String museumPage() {
+        return "virtual_museum";
     }
+
 }
