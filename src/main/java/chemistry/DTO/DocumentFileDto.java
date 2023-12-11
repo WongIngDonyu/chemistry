@@ -11,4 +11,5 @@ public class DocumentFileDto {
     private String filePath;
     private String fileName;
     private long userId;
+    private String imagePath;
 }

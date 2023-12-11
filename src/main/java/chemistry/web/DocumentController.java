@@ -1,4 +1,4 @@
-package chemistry.rest;
+package chemistry.web;
 
 import chemistry.DTO.DocumentFileDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import chemistry.models.DocumentFile;
 import chemistry.service.DocumentService;
@@ -26,8 +27,9 @@ public class DocumentController {
     }
 
     @GetMapping
-    public List<DocumentFile> getAllDocuments() {
-        return documentService.getAllDocuments();
+    public String getAllDocuments(Model model) {
+        model.addAttribute("documents",documentService.getAllDocuments());
+        return "documents";
     }
 
     /*@GetMapping("/search")

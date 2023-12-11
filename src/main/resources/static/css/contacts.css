@@ -83,6 +83,14 @@ main{
     align-items: center;
     background: var(--Calico, #F8F3EF);
 }
+.section-a{
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    background: var(--Calico, #F8F3EF);
+    flex-wrap: wrap; /* Добавьте это, если хотите, чтобы элементы переносились на новую строку при нехватке места */
+}
+
 .section-1 .excursion-wrap{
     display: flex;
     height: 200px;
@@ -93,6 +101,17 @@ main{
     flex-shrink: 0;
     align-self: stretch;
     justify-content: center;
+}
+.section-1 .wrap{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7.99px;
+    flex-shrink: 0;
+    align-self: stretch;
+    justify-content: center;
+    background: var(--Calico, #F8F3EF);
 }
 .section-1 .excursion-wrap div{
     display: flex;
