@@ -22,7 +22,7 @@ public class FolderController {
         this.folderService = folderService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/main")
     public String listAllFolders(Model model) {
         List<FolderShowDto> folders = folderService.getAllFolders();
         model.addAttribute("folders", folders);

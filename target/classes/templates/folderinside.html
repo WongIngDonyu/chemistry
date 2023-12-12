@@ -3,45 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Список папок</title>
-
-    <!-- Подключение библиотеки Fancybox -->
+    <title>Содержимое папки</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/contacts.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/background-black.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
     <style>
         .media-container {
-            display: inline-block;
             margin: 10px;
-            max-width: 300px; /* Устанавливаем максимальную ширину */
-            vertical-align: middle; /* Располагаем по середине по вертикали */
+            max-width: 300px;
         }
 
         .media-container img, .media-container video {
-            max-width: 100%; /* Сохраняем оригинальные пропорции */
-            height: auto; /* Сохраняем оригинальные пропорции */
-            display: block; /* Убираем внутренние отступы */
-            margin: 0 auto; /* Выравниваем по центру */
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .section-a {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .roww {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
         }
     </style>
 </head>
 <body>
+<header th:replace="~{hf/header}"></header>
 
-<!-- Display Images with Fancybox -->
-<div th:each="image : ${folder.imageFiles}" class="media-container">
-    <a th:href="@{'/' + ${image.getImagePath()}}" data-fancybox="gallery" th:data-caption="${image.getImage_name()}">
-        <img th:src="@{'/' + ${image.getImagePath()}}" th:alt="${image.getImage_name()}"/>
-    </a>
-</div>
+<section class="section-1">
+    <div class="container">
+        <div class="excursion-wrap row align-items-center">
+            <div class="align-content-center col-12">
+                <div class="col-12">
+                    <p th:text="${folder.getName_folder()}"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!-- Display Videos -->
-<div th:each="video : ${folder.videoFiles}" class="media-container">
-    <!-- Your video display code here -->
-    <video th:src="@{'/' + ${video.getVideoPath()}}" controls width="300" height="200" th:alt="${video.getVideo_name()}">
-        Your browser does not support the video tag.
-    </video>
-</div>
+<section class="section-1">
+    <div class="container">
+        <h3>Изображения</h3>
+    </div>
+    <section class="section-a">
+        <div class="roww">
+            <div th:each="image : ${folder.imageFiles}" class="media-container">
+                <a th:href="@{'/' + ${image.getImagePath()}}" data-fancybox="gallery" th:data-caption="${image.getImage_name()}">
+                    <img th:src="@{'/' + ${image.getImagePath()}}" th:alt="${image.getImage_name()}"/>
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Видео</h3>
+        </div>
+        <div class="roww">
+            <div th:each="video : ${folder.videoFiles}" class="media-container">
+                <video th:src="@{'/' + ${video.getVideoPath()}}" controls width="300" height="200" th:alt="${video.getVideo_name()}">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+</section>
 
+<footer th:replace="~{hf/footer}"></footer>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>

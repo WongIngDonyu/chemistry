@@ -28,20 +28,16 @@
 <section class="section-1">
 <div id="map" style="width: 80%; max-width: 1200px; height: 400px; display: flex; align-items: center;"></div>
 <script>
-    // Инициализация карты
     ymaps.ready(init);
 
     function init() {
-        // Координаты места, которое вы хотите отметить на карте
         var location = [55.787594, 37.607011];
 
-        // Создание карты с центром в указанных координатах
         var map = new ymaps.Map("map", {
             center: location,
             zoom: 17
         });
 
-        // Добавление метки на карту
         var placemark = new ymaps.Placemark(location, {
             hintContent: 'Место',
             balloonContent: 'Дополнительная информация о месте'

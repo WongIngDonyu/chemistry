@@ -46,6 +46,7 @@ public class DocumentService {
         /*.orElseThrow(() -> new RuntimeException("User not found"))*/;
         document.setUser(user);
         document.setFileName(documentDto.getFileName());
+        document.setImagePath(documentDto.getImagePath());
 
         return documentRepository.save(document);
     }

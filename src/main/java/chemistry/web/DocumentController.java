@@ -60,13 +60,5 @@ public class DocumentController {
         return documentService.addDocument(documentDto);
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteDocument(@PathVariable String id) {
-        return documentService.getDocumentById(id)
-                .map(document -> {
-                    documentService.deleteDocument(id);
-                    return ResponseEntity.ok().<Void>build();
-                })
-                .orElseGet(() -> ResponseEntity.notFound().build());
-    }
+
 }

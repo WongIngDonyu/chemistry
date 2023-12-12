@@ -3,8 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Admin board</title>
+    <style>
+        .user-info {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
 </head>
 <body>
+
+<div class="user-info">
+    <span th:if="${#authentication}" th:text="${#authentication.name}">Username</span>
+</div>
+<div class="user-info">
+    <span th:text="${username}">Username</span>
+</div>
+
+<h2>Все папки</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Имя папки</th>
+        <th>Удаление</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="folder : ${folders}">
+        <td th:text="${folder.name_folder}"></td>
+        <td>
+            <form th:action="@{/rutmuseum.ru/admin/delete/folder/{id}(id=${folder.id})}" method="post">
+                <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+                <button type="submit">Удалить</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
 <h2>Все фото</h2>
 <table>
     <thead>
@@ -19,7 +55,10 @@
         <td th:text="${picture.image_name}"></td>
         <td th:text="${picture.imagePath}"></td>
         <td>
-            <a th:href="@{/rutmuseum.ru/admin/delete/pictures/{id}(id=${picture.id})}">Удалить</a>
+            <form th:action="@{/rutmuseum.ru/admin/delete/pictures/{id}(id=${picture.id})}" method="post">
+                <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+                <button type="submit">Удалить</button>
+            </form>
         </td>
     </tr>
     </tbody>
@@ -39,24 +78,85 @@
         <td th:text="${video.video_name}"></td>
         <td th:text="${video.videoPath}"></td>
         <td>
-            <a th:href="@{/rutmuseum.ru/admin/delete/video/{id}(id=${video.id})}">Удалить</a>
+            <form th:action="@{/rutmuseum.ru/admin/delete/video/{id}(id=${video.id})}" method="post">
+                <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+                <button type="submit">Удалить</button>
+            </form>
         </td>
     </tr>
     </tbody>
 </table>
 
+<h2>Все документы</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Путь</th>
+        <th>Удаление</th>
+        <th>Показать</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="document : ${documents}">
+        <td th:text="${document.fileName}"></td>
+        <td th:text="${document.filePath}"></td>
+        <td>
+            <form th:action="@{/rutmuseum.ru/admin/delete/document/{id}(id=${document.id})}" method="post">
+                <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+                <button type="submit">Удалить</button>
+            </form>
+        </td>
+        <td>
+            <a th:href="@{/documents/search/{name}(name=${document.fileName})}">Показать</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>Добавить новую папку</h2>
+<form method="post" action="/rutmuseum.ru/admin/addFolder" th:object="${folderDto}">
+    <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+    <label>Имя папки: <input type="text" th:field="*{name_folder}"/></label>
+    <button type="submit">Save</button>
+</form>
+
 <h2>Добавить новое фото</h2>
 <form method="post" action="/rutmuseum.ru/admin/addImage" th:object="${imageFileDto}">
+    <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
     <label>Имя: <input type="text" th:field="*{image_name}"/></label>
     <label>Путь до фото: <input type="text" th:field="*{imagePath}"/></label>
-    <button type="submit">Save</button>
+    <label>Выберите папку:
+        <select name="folderId">
+            <option th:each="folder : ${folders}" th:value="${folder.id}" th:text="${folder.name_folder}"></option>
+        </select>
+    </label>
+    <button type="submit">Сохранить</button>
 </form>
 
 <h2>Добавить новое видео</h2>
 <form method="post" action="/rutmuseum.ru/admin/addVideo" th:object="${videoFileDto}">
+    <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
     <label>Имя: <input type="text" th:field="*{video_name}"/></label>
     <label>Путь до видео: <input type="text" th:field="*{videoPath}"/></label>
-    <button type="submit">Save</button>
+    <label>Выберите папку:
+        <select name="folderId" id="folderId">
+            <option th:each="folder : ${folders}" th:value="${folder.id}" th:text="${folder.name_folder}"></option>
+        </select>
+    </label>
+
+    <button type="submit">Сохранить</button>
 </form>
+
+<h2>Добавить новый документ</h2>
+<form method="post" action="/rutmuseum.ru/admin/addDocument" th:object="${documentFileDto}">
+    <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+    <label>Имя: <input type="text" th:field="*{fileName}"/></label>
+    <label>Путь до документа: <input type="text" th:field="*{filePath}"/></label>
+    <label>Путь до картинки: <input type="text" th:field="*{imagePath}"/></label>
+    <button type="submit">Сохранить</button>
+</form>
+
+<a href="/">Вернуться на главную</a>
 </body>
 </html>
