@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/contacts.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<header th:replace="~{hf/header}"></header>
+<section class="section-1">
+    <div class="container">
+        <div class="excursion-wrap row align-items-center">
+            <div class="align-content-center col-11">
+                <div class="col-12">
+                    <p>Виртуальная коллекция</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+<!--
+<ul>
+    <li th:each="document : ${documents}">
+        <img th:src="@{${document.imagePath}}" alt="Image"/>
+        <a th:href="@{'/'+documents+'/'+${document.id}}" th:text="${document.fileName}"></a>
+    </li>
+</ul>
+-->
+<style>
+    .image-container {
+        margin: 20px; /* Измените это значение в соответствии с вашими потребностями */
+        text-align: center; /* Выравнивание текста по центру */
+    }
+    .image-container img {
+        width: 400px;
+        height: 300px;
+        max-width: 100%; /* Это позволит изображению сжиматься при уменьшении экрана */
+        max-height: 100%; /* Это позволит изображению сжиматься при уменьшении экрана */
+        height: auto; /* Это сохранит пропорции изображения */
+    }
+    .image-container a {
+        color: black; /* Цвет текста */
+        text-decoration: none; /* Удаление подчеркивания у ссылки */
+    }
+</style>
+
+<section class="section-1">
+    <table>
+        <tr th:each="document, iterStat : ${documents}">
+            <!-- Output 3 images in each row -->
+            <td th:each="i : ${#numbers.sequence(1, 3)}">
+                <!-- Check if the document exists at the current position -->
+                <th:block th:if="${iterStat.index * 3 + i - 1 < documents.size()}">
+                    <!-- Get the current document -->
+                    <th:with var="currentDocument" th:each="currentDocument : ${documents[iterStat.index * 3 + i - 1]}">
+                        <div class="image-container">
+                            <a th:href="@{'/' + documents + '/' + ${currentDocument.id}}">
+                                <img th:src="@{${currentDocument.imagePath}}" alt="Image"/>
+                                <br/>
+                                <span th:text="${currentDocument.fileName}"></span>
+                            </a>
+                        </div>
+                    </th:with>
+                </th:block>
+            </td>
+        </tr>
+    </table>
+</section>
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="links row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="links-col col-6">
+                            <div class="bottom-menu-title">
+                                <p>Посетителям</p>
+                            </div>
+                            <div class="list">
+                                <div class="item">
+                                    <a href="#">Спланировать визит</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">Правила посещения</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">Билеты</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="links-col col-6">
+                            <div class="bottom-menu-title">
+                                <p>Выставки и события</p>
+                            </div>
+                            <div class="list">
+                                <div class="item">
+                                    <a href="#">Выставки</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">Экскурсии</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container justify-content-between d-flex">
+            <div class="credits">
+                <span>Химический музей им. Каблукова</span>
+                <span>Поддержка и продвижение сайта «Карпенко»</span>
+                <span>Дизайн сайта Кирилл Анимелов</span>
+            </div>
+            <div class="margin">
+                <a href="#">Политика конфидиальности</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

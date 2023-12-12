@@ -5,44 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="merging final">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/videofile/video2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/chemistry/web/DocumentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_12_2023_16_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_12_2023_16_07__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/FolderArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/FolderArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/service/DocumentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/web/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/web/DocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chemistry/web/FolderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chemistry/web/FolderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminBoard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hf/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hf/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hf/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hf/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/DocumentFileDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/DocumentFileDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/FolderArchive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/FolderArchive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/rest/DocumentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/FolderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/FolderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/imagefile/1с.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/videofile/333.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/adminBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/adminBoard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/excursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/excursion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/folderinside.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/folderinside.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/folderlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/folderlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/virtual_museum.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/virtual_museum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vitrina.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vitrina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/DocumentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/2",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/WongIngDonyu/IdeaProjects/chemistry/src/main/resources/static/videofile",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
