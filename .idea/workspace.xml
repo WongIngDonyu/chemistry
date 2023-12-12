@@ -5,8 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef3a081-a0e4-4a3a-a5c2-c20a8ffa55e3" name="Changes" comment="merging final">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/documents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/lections.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/lections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/ChemistryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/ChemistryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/DocumentFileDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/DocumentFileDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/FolderDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/FolderDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/FolderShowDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/FolderShowDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/ImageFileDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/ImageFileDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/UsersDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/UsersDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/DTO/VideoFileDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/DTO/VideoFileDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/configs/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/configs/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/DocumentFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/FolderArchive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/FolderArchive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/ImageFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/ImageFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/models/VideoFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/models/VideoFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/CustomUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/DocumentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/FolderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/FolderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/ImageFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/ImageFileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/VideoFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/VideoFileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/DocumentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/FolderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/FolderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/ImageFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/ImageFileRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/service/repository/VideoFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/service/repository/VideoFileRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/AdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/DocumentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/FolderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/FolderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/PageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chemistry/web/ShowcaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chemistry/web/ShowcaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/documents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/lections.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/lections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,30 +101,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/WongIngDonyu/IdeaProjects/chemistry/src/main/resources/static/videofile",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "9ddee3770eba541ff59e15c41d0ef20a",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WongIngDonyu/IdeaProjects/chemistry/src/main/resources/static/videofile&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9ddee3770eba541ff59e15c41d0ef20a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\WongIngDonyu\IdeaProjects\chemistry\src\main\resources\static\videofile" />
@@ -97,7 +138,7 @@
       <recent name="E:\UNIK\Проект\chemistry-master\src\main\resources\static\folders" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ChemistryApplication">
+  <component name="RunManager" selected="Spring Boot.ChemistryApplication (1)">
     <configuration name="PasswordEncoderUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PasswordEncoderUtil" />
       <module name="car-catalog" />
@@ -107,6 +148,13 @@
     </configuration>
     <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="15" requestIdentifier="#15" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="ChemistryApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chemistry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="chemistry.ChemistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ChemistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="car-catalog" />
@@ -145,6 +193,7 @@
       <workItem from="1702138419311" duration="606000" />
       <workItem from="1702226227901" duration="15391000" />
       <workItem from="1702288085413" duration="18742000" />
+      <workItem from="1702371445969" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="do work validation in model">
       <option name="closed" value="true" />
@@ -201,21 +250,6 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/feature/1" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -233,6 +267,21 @@
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/feature/1" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
